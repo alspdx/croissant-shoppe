@@ -2,68 +2,41 @@
   height: 100vh;
 }
 
-.upper {
-  position: relative;
-  background-image: url("../img/backgroundcroissant.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 60%;
-  color: #f2f3f4;
-  font-family: 'Julius Sans One', sans-serif;
-}
-
-.header {
-  height: 100px;
-  border: 2px solid red;
-}
-
 .logo {
   float: left;
-  border: 1px solid blue;
-
+  position: relative;
+  width: 50%;
+  height: 180px;
+  background-color: #f47070;
 }
 
-.logo h4 {
-
+.logo h3 {
+  font-size: 2em;
 }
 
-.navbar {
-  float: right;
-  border: 1px solid lime;
-  bottom: 50%;
+.logo-text {
+  position: absolute;
+  left: 20px;
+  top: 50px;
   transform: translate(0, -50%);
 }
 
-.navbar span {
-  margin-left: 10px;
-  margin-right: 10px;
+.nav {
+  float: right;
+  position: relative;
+  width: 50%;
+  height: 180px;
+  background-color: #83aad1;
 }
 
-.main-caption {
+.nav-elements {
   position: absolute;
-  width: 80%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: 600;
+  right: 20px;
+  top: 50px;
+  transform: translate(0, -50%)
 }
 
-.top-caption p {
-  width: 100%;
-  font-size: 3em;
-  text-align: center;
-}
-
-.bottom-caption p {
-  border-top: 1px solid #f2f3f4;
-  padding-top: 40px;
-  width: 100%;
-  font-size: 4em;
-  text-align: center;
-}
-
-.lower {
-  height: 40%;
-  border: 2px solid lime;
+.nav-elements p {
+  display: inline;
+  margin-left: 30px;
 }
